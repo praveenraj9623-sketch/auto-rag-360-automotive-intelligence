@@ -48,7 +48,7 @@ def _metrics_radar(report: dict) -> None:
             angularaxis=dict(tickfont=dict(color="#8b949e", size=10), gridcolor="#21262d"),
             bgcolor="#161b22",
         ),
-        legend=dict(font=dict(color="#8b949e", size=10), bgcolor="transparent"),
+        legend=dict(font=dict(color="#8b949e", size=10), bgcolor="rgba(0,0,0,0)"),
     )
     st.plotly_chart(fig, use_container_width=True)
 
@@ -76,7 +76,7 @@ def _metric_bars(report: dict) -> None:
     )
     fig = apply_plotly_theme(fig, "Metric Scores", height=280)
     fig.update_layout(
-        xaxis=dict(gridcolor="transparent"),
+        xaxis=dict(gridcolor="rgba(0,0,0,0)"),
         yaxis=dict(range=[0, 1.2], gridcolor=t["grid_color"]),
         showlegend=False,
     )

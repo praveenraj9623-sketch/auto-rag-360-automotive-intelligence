@@ -97,7 +97,7 @@ def _feature_importance(rows: list[dict]) -> None:
     )
     fig = apply_plotly_theme(fig, "Feature Importance", height=max(200, len(rows) * 36))
     fig.update_layout(
-        yaxis=dict(categoryorder="total ascending", gridcolor="transparent"),
+        yaxis=dict(categoryorder="total ascending", gridcolor="rgba(0,0,0,0)"),
         xaxis=dict(gridcolor=t["grid_color"]),
         showlegend=False,
     )

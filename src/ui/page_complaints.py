@@ -44,7 +44,7 @@ def _severity_bars(probabilities: dict) -> None:
     )
     fig = apply_plotly_theme(fig, "Severity Probability", height=260)
     fig.update_layout(
-        xaxis=dict(gridcolor="transparent"),
+        xaxis=dict(gridcolor="rgba(0,0,0,0)"),
         yaxis=dict(range=[0, max(values, default=0.1) * 1.35], gridcolor=t["grid_color"],
                    tickformat=".0%"),
         showlegend=False,
@@ -109,7 +109,7 @@ def _component_bar(complaints: pd.DataFrame) -> None:
     )
     fig = apply_plotly_theme(fig, "Complaints by Component", height=380)
     fig.update_layout(
-        yaxis=dict(categoryorder="total ascending", gridcolor="transparent"),
+        yaxis=dict(categoryorder="total ascending", gridcolor="rgba(0,0,0,0)"),
         xaxis=dict(gridcolor=t["grid_color"]),
         showlegend=False,
     )
