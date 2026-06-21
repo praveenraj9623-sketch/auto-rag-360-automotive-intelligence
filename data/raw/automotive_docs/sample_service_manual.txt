@@ -1,0 +1,15 @@
+Title: Phase 1 Sample Service Manual Excerpt
+Document type: service_manual
+Sensitivity: internal_engineering
+
+Brake actuator diagnostic procedure:
+When the service brake warning lamp is paired with diagnostic code BA-142,
+inspect the hydraulic control unit connector, verify brake pressure sensor
+calibration, and confirm actuator torque values after replacement. This
+procedure is intended for trained service engineers and internal engineering
+teams.
+
+Air bag control module connector check:
+For intermittent restraint module communication, inspect the under-seat wiring
+harness and confirm the connector latch is fully seated before clearing fault
+codes. Do not replace the module until the wiring continuity test passes.

@@ -1,0 +1,12 @@
+Title: Phase 1 Sample Supplier Notice
+Document type: supplier_notice
+Sensitivity: supplier_visible
+
+Suppliers may receive component-level quality notices when a field issue may
+involve supplied parts. The notice should include part number, component family,
+inspection criteria, quarantine expectations, and a due date for containment
+feedback.
+
+For brake hose brackets, suppliers should confirm fixture settings, material lot
+traceability, and corrective action status without accessing internal service
+manuals or confidential engineering analyses.

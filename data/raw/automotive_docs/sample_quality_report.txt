@@ -1,0 +1,12 @@
+Title: Phase 1 Sample Quality Report
+Document type: quality_report
+Sensitivity: internal_engineering
+
+The quality engineering review found that brake hose routing variation on
+selected crossover vehicles increased abrasion risk near the front wheel well.
+The containment action is an inspection gate at final assembly and a supplier
+process capability review for the affected hose bracket.
+
+Root cause analysis for intermittent instrument cluster resets points to a
+software watchdog timing issue during cold start. The corrective action is a
+calibration update and expanded cold chamber validation.

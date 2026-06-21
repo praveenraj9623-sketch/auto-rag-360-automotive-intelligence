@@ -1,0 +1,11 @@
+Title: Phase 1 Sample Recall Policy
+Document type: recall_policy
+Sensitivity: confidential
+
+Recall triage begins when field reports, warranty claims, consumer complaints,
+supplier notices, or engineering test failures indicate a safety-related defect
+trend. The review board compares severity, occurrence rate, detectability, and
+available remedies before deciding whether to open a formal recall action.
+
+Executives and quality leaders should receive a summary of affected population,
+potential consequence, proposed owner notification timing, and remedy readiness.
